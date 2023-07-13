@@ -3,7 +3,7 @@ import BackgroundChanger from './backgroundChanger';
 
 
 function Hero() {
-    const [background, setBackground] = useState('');
+    const [background, setBackground] = useState(true);
 
     function handleBackgroundChange(newBackground) {
       setBackground(newBackground);
